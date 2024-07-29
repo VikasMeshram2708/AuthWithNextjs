@@ -25,7 +25,7 @@ export const POST = async (request: NextRequest) => {
         }
       );
     }
-    console.log("user-exist", user);
+    // console.log("user-exist", user);
 
     // compare the password
     const validPassword = await bcrypt.compare(password, user?.password);

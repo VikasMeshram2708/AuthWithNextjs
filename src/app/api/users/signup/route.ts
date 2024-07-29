@@ -45,7 +45,7 @@ export const POST = async (request: NextRequest) => {
       userId: savedUser?._id,
     });
 
-    console.log(savedUser);
+    // console.log(savedUser);
 
     return NextResponse.json(
       {
